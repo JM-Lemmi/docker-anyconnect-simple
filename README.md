@@ -6,7 +6,7 @@ A very simple anyconnect docker-container
 
 ```
 docker run -e PASSWORD=xxx -e USERNAME=xxx -e AUTHGROUP=xxx -e HOST=xxx \
-  --privileged --name=vpn ghcr.io/cirosec-studis/anyconnect-simple
+  --privileged --name=vpn ghcr.io/jm-lemmi/anyconnect-simple
 ```
 
 You need to run the container privileged to allow acces to creating the tunnel device.
